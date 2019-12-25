@@ -28,14 +28,12 @@
   height:device-height;
 }
 .table, th, tr {
-  border: 10px solid white;
-  tex
-
-
+  border: 1px  white;
 }
+
+
 #body {
-  /* height: calc(100%-87px); */
-  width:device-width;
+  width: device-width;
   margin: 0 auto;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -114,8 +112,9 @@
   
 }
 #actingscrn{
-  height:calc(100vh - 87px);
-  margin: 30%;
+  height: fit-content;
+  background-color: rgb(90, 197, 233);
+  min-height: 70vh;
 }
 #header {
   background: rgb(42, 39, 39);

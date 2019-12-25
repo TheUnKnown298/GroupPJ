@@ -25,7 +25,7 @@
 <body>
   <div class ="container">
         <div id="header">
-            <h1>ShopCon</h1>
+            <a href="index.php"><h1>ShopCon</h1></a>
                 <p>Easy Control Your Shops</p>
                 <span>
                 <!-- <button class = "logton"> Log Out</button>  -->
