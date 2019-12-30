@@ -100,8 +100,8 @@
   cursor: pointer;
   float: right;
   margin-top:-60px;
-  margin-right: 50px;
-    
+  margin-right: 40px;
+  padding: 5px;
 }
 .homebtn{
   background-color: deepskyblue;
@@ -110,12 +110,12 @@
   border-color: deepskyblue;
   color: black;
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
   cursor: pointer;
   float: right;
   margin-right: 130px;
   margin-top: -60px;
-
+  padding: 5px;
     
 }
 .navicon{

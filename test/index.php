@@ -30,7 +30,8 @@
                 <span>
                 <!-- <button class = "logton"> Log Out</button>  -->
                     <!-- <button class="homebtn" type="submit" formaction='index.php'>Home</button> -->
-                    <button class="logout" type="submit" formaction='login.php'>Log Out</button>
+                    <!-- <a class="homebtn" href='index.php'>Home</a> -->
+                    <a class="logout" href='login.php'>Log Out</a>
                     <form class="searchbar" action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search2">
                     <button type="submit" style="background:blue"><i class="fa fa-search"></i></button>
