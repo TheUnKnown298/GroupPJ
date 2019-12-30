@@ -103,6 +103,21 @@
   margin-right: 50px;
     
 }
+.homebtn{
+  background-color: deepskyblue;
+  border: solid;
+  border-radius: 12px;
+  border-color: deepskyblue;
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+  float: right;
+  margin-right: 130px;
+  margin-top: -60px;
+
+    
+}
 .navicon{
 
     position: top;
@@ -114,7 +129,7 @@
 #actingscrn{
   height: fit-content;
   background-color: rgb(90, 197, 233);
-  min-height: 70vh;
+  min-height: 80vh;
 }
 #header {
   background: rgb(42, 39, 39);

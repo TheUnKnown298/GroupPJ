@@ -29,7 +29,8 @@
                 <p>Easy Control Your Shops</p>
                 <span>
                 <!-- <button class = "logton"> Log Out</button>  -->
-                    <a class="logout" href='login.php'>Log Out</a>
+                    <!-- <button class="homebtn" type="submit" formaction='index.php'>Home</button> -->
+                    <button class="logout" type="submit" formaction='login.php'>Log Out</button>
                     <form class="searchbar" action="/action_page.php">
                     <input type="text" placeholder="Search.." name="search2">
                     <button type="submit" style="background:blue"><i class="fa fa-search"></i></button>
@@ -44,17 +45,18 @@
             
                     <div id="mySidenav" class="sidenav" style ="width: 0px">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <a href="#">Func1</a>
-                        <a href="#">Func2</a>
-                        <a href="#">Func3</a>
-                        <a href="#">Func4</a>
+                        <a href="index2.php">Func1</a>
+                        <a href="index3.php">Func2</a>
+                        <a href="index4.php">Func3</a>
+                        <a href="index5.php">Func4</a>
                 </div> 
             </span>
 
                         <span class="navicon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
    
                         <div id="actingscrn">
-                            <div style="margin: 10vh 10vh 10vh 10vh;font-size:larger">
+                            <div style="margin: 0vh 0vh 0vh 10vh;font-size:larger">
+                                <div style="padding: 5vh"></div>
                                 <table style="border: 1px solid white; width: 100%; height:fit-content; text-align:center;">
                                     <tr>
                                     <th>Id</th>

@@ -45,10 +45,10 @@
             
                     <div id="mySidenav" class="sidenav" style ="width: 0px">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <!-- <a href="#">Func1</a> -->
+                        <a href="index2.php">Func1</a>
                         <a href="index3.php">Func2</a>
                         <a href="index4.php">Func3</a>
-                        <a href="index5.php">Func4</a>
+                        <!-- <a href="#">Func4</a> -->
                 </div> 
             </span>
 
