@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  height:device-height;
+}
+.searchbar {
+  float: right;
+  margin-top: -20px;
+  margin-right:20px;
+
+
+}
+
+.logton {
+  
+  background-color: #4caf50;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-top:-50px;
+  margin-right: 70px;
+
+}
+.container{
+  height:device-height;
+}
+#body {
+  width: device-width;
+  margin: 0 auto;
+  font-family: Verdana; 
+  font-size: 12px; 
+  color: #444; 
+ 
+}
+.sidenav {
+  width:20px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 10px;
+    width:10px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.logout{
+  background-color: deepskyblue;
+  border: solid;
+  border-radius: 12px;
+  border-color: deepskyblue;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-top:-60px;
+  margin-right: 40px;
+  padding: 5px;
+}
+.homebtn{
+  background-color: gray;
+  border: solid;
+  border-radius: 12px;
+  border-color: deepskyblue;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-right: 130px;
+  margin-top: -60px;
+  padding: 5px;
+    
+}
+.navicon{
+
+    position: top;
+    right: 0;
+    top: 0;
+  
+  
+}
+#header {
+  background: rgb(42, 39, 39);
+  color: white;
+  padding: 1em;
+  font: bold 100% sans-serif; 
+  letter-spacing: 0.5em; 
+  text-align: center; 
+  text-transform:uppercase;
+  
+}
+
+#content {
+  background: #555;
+  color: white;
+  width: 100%;
+  float: right;
+}
+  table th { 
+    padding: 10px; 
+    background-color: rgb(8, 7, 1); 
+    color: white; 
+    text-align: left; 
+} 
+  
+ table td { 
+    padding: 5px; 
+} 
+ table tr { 
+    background-color: gray; 
+  }
+table { 
+  width: 60vw; 
+} 
+
+#sidebar {
+  /* background: pink; */
+  color: white;
+  width: 300px;
+  padding: 1em;
+  margin-top:1em
+}
+
+#footer {
+  position: relative;
+  clear: both;
+  background: rgb(42, 39, 39);
+  color: white;
+  padding: 1em;
+}
+a {color: white; text-decoration: none;} 
+  
+a:hover {text-decoration: underline;} 
